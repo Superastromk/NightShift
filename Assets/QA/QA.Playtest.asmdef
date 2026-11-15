@@ -1,0 +1,25 @@
+{
+    "name": "QA.Playtest",
+    "rootNamespace": "QA",
+    "references": [
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "QA_HAS_INPUTSYSTEM"
+    ],
+    "versionDefines": [
+        { "name": "com.unity.inputsystem", "expression": "1.1.0", "define": "QA_HAS_INPUTSYSTEM" },
+        { "name": "com.unity.modules.physics", "expression": "1.0.0", "define": "QA_HAS_PHYSICS" },
+        { "name": "com.unity.modules.physics2d", "expression": "1.0.0", "define": "QA_HAS_PHYSICS2D" },
+        { "name": "com.unity.modules.screencapture", "expression": "1.0.0", "define": "QA_HAS_SCREENCAPTURE" },
+        { "name": "com.unity.modules.imageconversion", "expression": "1.0.0", "define": "QA_HAS_IMAGECONVERSION" },
+        { "name": "com.unity.modules.uielements", "expression": "1.0.0", "define": "QA_HAS_UIELEMENTS" }
+    ],
+    "noEngineReferences": false
+}

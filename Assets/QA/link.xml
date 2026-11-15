@@ -1,0 +1,4 @@
+<!-- Keeps the QA playtest runner in stripped players (it is only reached through RuntimeInitializeOnLoadMethod). -->
+<linker>
+  <assembly fullname="QA.Playtest" preserve="all"/>
+</linker>
